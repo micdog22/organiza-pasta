@@ -1,0 +1,6 @@
+{
+  "Livros": ["epub", "mobi", "azw3"],
+  "Notas Fiscais": ["xml"],
+  "Modelos 3D": ["stl", "obj", "3mf", "blend"],
+  "Torrents": [".torrent"]
+}

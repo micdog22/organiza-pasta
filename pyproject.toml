@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "organiza-pasta"
+version = "1.0.0"
+description = "Arruma pastas como Downloads em subpastas por tipo ou por data, sem sobrescrever nada e com opção de desfazer."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["organizar", "downloads", "arquivos", "pastas", "produtividade", "cli"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Desktop Environment :: File Managers",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/micdog22/organiza-pasta"
+Issues = "https://github.com/micdog22/organiza-pasta/issues"
+
+[project.scripts]
+organiza-pasta = "organiza_pasta.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
