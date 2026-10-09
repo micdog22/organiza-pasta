@@ -1,4 +1,4 @@
-# Organiza Pasta — arrume sua pasta de Downloads em segundos (Python)
+# Organiza Pasta: arrume sua pasta de Downloads em segundos (Python)
 
 A pasta de Downloads de todo mundo vira bagunça: boleto, foto, instalador, planilha, PDF de nota fiscal, tudo misturado. O **organiza-pasta** separa os arquivos em subpastas como `Imagens`, `PDFs`, `Vídeos` e `Planilhas` (ou por ano e mês), mostra o plano antes, nunca sobrescreve nada e deixa desfazer tudo com um comando.
 
@@ -172,4 +172,4 @@ Issues e pull requests são bem-vindos, principalmente sugestões de extensões 
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT. Veja [LICENSE](LICENSE).
