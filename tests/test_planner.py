@@ -60,7 +60,7 @@ class NameTests(unittest.TestCase):
         self.assertEqual(free_name("LEIAME", {"leiame"}), "LEIAME (1)")
 
     def test_collision_ignores_case_and_unicode_form(self):
-        decomposed = "Relatório.pdf"  # "Relatório" como o macOS às vezes guarda
+        decomposed = "Relato\u0301rio.pdf"  # "Relatório" como o macOS às vezes guarda
         plan = build_plan([entry("relatório.PDF")], "tipo", MAP, lambda folder: [decomposed])
         self.assertEqual(targets(plan), {"relatório.PDF": "PDFs/relatório (1).PDF"})
 
